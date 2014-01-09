@@ -1,0 +1,10 @@
+a{color:#22bce0;text-decoration:none}
+body{font:16px Arial}
+h1{color:#101010}
+header{background:#fdfdfd}
+nav{background:#747474;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box;}
+nav ul{-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box;font-size:0;margin:0;padding:0;}
+nav ul li{display:inline-block;font-size:16px;margin:0;}
+nav ul li a{display:block;padding:.5em 1em;}
+nav ul li a:hover{background:#22bce0;color:#fdfdfd}
+.icon-house{line-height:35px;padding:0 .5em}

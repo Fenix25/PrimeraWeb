@@ -1,0 +1,43 @@
+azulBonito = #22BCE0
+blanco = #fdfdfd
+ff = Arial
+fs = 16px
+fuente = fs ff
+gris = #747474
+negro = #101010
+
+box-sizing()
+	-moz-box-sizing border-box
+	-webkit-box-sizing border-box
+	box-sizing border-box
+
+a
+	color azulBonito
+	text-decoration none
+body
+	font fuente
+h1
+	color negro
+header
+	background blanco
+nav
+	background gris
+	box-sizing()
+	ul
+		box-sizing()
+		font-size 0
+		margin 0
+		padding 0
+		li
+			display inline-block
+			font-size fs
+			margin 0
+			a
+				display block
+				padding .5em 1em
+				&:hover
+					background azulBonito
+					color blanco
+.icon-house
+	line-height 35px
+	padding 0 .5em
